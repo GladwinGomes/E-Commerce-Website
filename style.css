@@ -530,11 +530,11 @@
         padding: 0px 15px 20px;
     }
     .product-products img{
-        height: 160px;
-        width: 160px;
+        height: 150px;
+        width: 150px;
     }
     .product-products p{
-        max-width: 160px;
+        max-width: 150px;
         font-size: 14px;
     }
     .info{
