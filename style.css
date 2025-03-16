@@ -39,6 +39,11 @@
     padding: 11px 32px;
 }
 
+.navbar .menu a{
+    text-decoration: none;
+    color: white;
+}
+
 .navbar .nav{
     display: flex;
     justify-content: center;
@@ -63,6 +68,11 @@
 
 .nav li{
     padding: 10px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
 }
 
 .bg-body-tertiary{
@@ -375,7 +385,6 @@
     color: white;
 }
 
-/* Social Icons */
 .icons1 {
     margin-top: 10px;
     text-align: center;
@@ -394,9 +403,6 @@
 
 
 @media (max-width: 1300px){ 
-    .navbar{
-        padding: 20px 15px;
-    }
     .circle{
         padding: 40px 15px 20px;
     }
@@ -428,23 +434,7 @@
     }
 }
 
-@media (min-width: 1025px){
-    .hamburger-btn,
-    .offcanvas {
-        display: none !important;
-    }
-}
-
 @media (max-width: 1024px){
-    .navbar .nav{
-        display: none;
-    }
-    .hamburger-btn {
-        display: block;
-    }
-    .navbar .logo{
-        padding-right: 0px;
-    }
     .space {
         height: 70px;
     }   
@@ -460,9 +450,6 @@
 }
 
 @media (max-width: 768px) {
-    .offcanvas {
-        width: 300px !important;
-    }
     .space {
         height: 60px;
     }
@@ -501,16 +488,6 @@
 }
 
 @media (max-width: 480px){
-    .navbar{
-        justify-content: space-between;
-        padding: 10px 15px;
-    }
-    .offcanvas {
-        width: 250px !important;
-    }
-    .custom-search{
-        width: 80%;
-    }
     .banner img {
         filter: brightness(0.7);
     }
@@ -554,6 +531,45 @@
     }
 }
 
+/* Navbar Section */
+@media (max-width: 1300px){ 
+    .navbar{
+        padding: 20px 15px;
+    }
+}
+@media (min-width: 1025px){
+    .hamburger-btn,
+    .offcanvas {
+        display: none !important;
+    }
+}
+@media (max-width: 1024px){
+    .navbar .nav{
+        display: none;
+    }
+    .hamburger-btn {
+        display: block;
+    }
+    .navbar .logo{
+        padding-right: 0px;
+    }
+}
+@media (max-width: 768px) {
+    .offcanvas {
+        width: 300px !important;
+    }
+}
+@media (max-width: 480px){
+    .navbar{
+        justify-content: space-between;
+        padding: 10px 15px;
+    }
+    .offcanvas {
+        width: 250px !important;
+    }
+}
+
+
 /* Footer Section */
 @media (max-width: 991px) {
     .footer .container {
@@ -568,7 +584,6 @@
         margin-bottom: 40px;
     }
 }
-
 @media (max-width: 600px) {
     .footer {
         text-align: center;
