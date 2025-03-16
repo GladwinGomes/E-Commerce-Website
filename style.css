@@ -458,7 +458,7 @@
         gap: 15px;
     }
     .product-products{
-        gap: 15px;
+        gap: 25px;
     }
     .product-products img{
         height: 250px;
@@ -507,11 +507,11 @@
         padding: 0px 15px 20px;
     }
     .product-products img{
-        height: 150px;
-        width: 150px;
+        height: 250px;
+        width: 250px;
     }
     .product-products p{
-        max-width: 150px;
+        max-width: 250px;
         font-size: 14px;
     }
     .info{
