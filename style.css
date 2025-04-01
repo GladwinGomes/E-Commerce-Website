@@ -19,6 +19,11 @@
     z-index: 1000;
 }
 
+.logo img{
+    height: 50px;
+    width: 100px;
+}
+
 .hamburger-btn i,
 .close-button i{
     color: white;
@@ -75,13 +80,17 @@
     color: white;
 }
 
+.nav a:hover{
+    color: #A0522D;
+}
+
 .bg-body-tertiary{
     background-color: #18120A !important;
 }
 
 .custom-search{
     border-radius: 25px;
-    overflow: hidden; /* Ensures button and input match radius */
+    overflow: hidden;
     width: 200px;
 }
 
@@ -123,6 +132,14 @@
 
 .icons i{
     padding: 0px 10px;
+}
+
+.icons a{
+    color: white;
+}
+
+.icons a:hover{
+    color: #A0522D;
 }
 
 
