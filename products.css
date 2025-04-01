@@ -3,6 +3,7 @@
     margin: 0;
 }
 
+
 /* Heading */
 .hero {
     text-align: center;
@@ -23,6 +24,7 @@
     align-items: center;
     flex-direction: column;
     padding-bottom: 25px;
+    font-family: sans-serif;
 }
 
 .products{
@@ -113,6 +115,26 @@
 }
 
 
+@media (max-width: 1024px) {
+    .hero {
+        padding: 50px 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 40px 50px 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        padding: 40px 20px 20px;
+    }
+}
+
+
+
 /* Navbar Section */
 .navbar {
     top: 0;
@@ -126,6 +148,11 @@
     color: white;
     background-color: #18120A;
     z-index: 1000;
+}
+
+.logo img{
+    height: 50px;
+    width: 100px;
 }
 
 .hamburger-btn i,
@@ -179,9 +206,13 @@
     padding: 10px;
 }
 
-.nav a {
+.nav a{
     text-decoration: none;
     color: white;
+}
+
+.nav a:hover{
+    color: #A0522D;
 }
 
 .bg-body-tertiary {
@@ -233,6 +264,14 @@
 
 .icons i {
     padding: 0px 10px;
+}
+
+.icons a{
+    color: white;
+}
+
+.icons a:hover{
+    color: #A0522D;
 }
 
 
@@ -416,24 +455,5 @@
 
     .icons1 a {
         font-size: 16px;
-    }
-}
-
-
-@media (max-width: 1024px) {
-    .hero {
-        padding: 50px 100px;
-    }
-}
-
-@media (max-width: 768px) {
-    .hero {
-        padding: 40px 50px 30px;
-    }
-}
-
-@media (max-width: 480px) {
-    .hero {
-        padding: 40px 20px 20px;
     }
 }
