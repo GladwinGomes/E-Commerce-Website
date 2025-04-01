@@ -27,19 +27,21 @@
                 <ul class="menu">
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="products.html">SHOP</a></li>
+                    <li>BLOG</li>
                     <li>ABOUT US</li>
                     <li>CONTACT US</li>
                 </ul>
             </div>
         </div>
         <div class="logo">
-            <img src="#" alt="Logo">
+            <img src="Img/Logo.jpg" alt="Logo">
         </div>
         <div class="nav">
             <div>
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="products.html">SHOP</a></li>
+                    <li>BLOG</li>
                     <li>ABOUT US</li>
                     <li>CONTACT US</li>
                 </ul>
@@ -57,7 +59,7 @@
                 </div>
             </nav>
             <i class="fa-solid fa-user"></i>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
         </div>
     </section>
 
@@ -74,7 +76,7 @@
                 <img src="Img/Circle 1.jpeg">
                 <h4>Product Name</h4>
                 <p><s>Rs. 695.00</s></p>
-                <button type="button" class="button">
+                <button type="button" class="button" onclick="addToCart('Product 1', 3000)">
                     <span class="button__text">Add to Cart</span>
                     <span class="button__icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24"
                             stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor"
@@ -222,6 +224,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
